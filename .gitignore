@@ -1,2 +1,3 @@
-weather_project/settings.py
-weather/weather_api.py
+settings.py
+weather_api.py
+.idea/
