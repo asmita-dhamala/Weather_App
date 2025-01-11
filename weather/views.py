@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from .weather_api import get_weather
 
-# weather/views.py
+
 def weather_view(request):
     if request.method == "POST":
         city = request.POST.get("city")
